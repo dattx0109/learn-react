@@ -2,14 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 import React, {Component} from 'react';
-import Header from "./Component/Header";
-import Menu from "./Component/Menu";
+import User from "./features/User";
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Menu></Menu>
+      <User></User>
     </div>
   );
 }
